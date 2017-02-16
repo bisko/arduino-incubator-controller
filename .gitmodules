@@ -1,0 +1,3 @@
+[submodule "lib/ESP8266Influxdb"]
+	path = lib/ESP8266Influxdb
+	url = https://github.com/bisko/ESP8266Influxdb.git
