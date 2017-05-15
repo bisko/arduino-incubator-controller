@@ -86,10 +86,10 @@ void loop() {
 	    Serial.print("Temperature in egg_cup: ");
 	    Serial.println(temp_egg_cup);
 
-	    if (temp_egg_cup < 30.0) {
+	    if (temp_egg_cup < 29.0) {
             turn_on_heater();
 	    }
-	    else if (temp_egg_cup >= 30.2) {
+	    else if (temp_egg_cup >= 29.2) {
             turn_off_heater();
 	    }
 
